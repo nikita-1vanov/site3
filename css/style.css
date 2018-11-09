@@ -1,7 +1,7 @@
 body {
 	background-color: #efefef;
 	min-width: 1040px;
-	max-width: 1900px;
+	max-width: 1920px;
 	margin: auto;
 }
 
@@ -144,14 +144,14 @@ div.form {
 }
 
 .block1 form input[type="submit"] {
-	font-size: 16px;
+	font-family: "Montserrat Regular";
+	font-size: 18px;
 	color: white; 
 	background: #c62314;
 	border: 1px solid #c62314;
 	width: 300px;
     height: 48px;
 	border-radius: 3px;
-	position: center;
 }
 
 .block1 form label {
@@ -346,6 +346,10 @@ div.testimonial {
 	width: 35%;
 	padding-left: 10%;
 	padding-right: 5%;
+}
+
+.testimonial  table {
+	border-collapse: collapse;
 }
 
 .pers1 {
